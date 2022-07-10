@@ -5,7 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import br.com.dio.arquitetura_mvvm.api.MovieRestApiTask
-import br.com.dio.arquitetura_mvvm.model.Movie
+import br.com.dio.arquitetura_mvvm.domain.Movie
 import br.com.dio.arquitetura_mvvm.repository.MovieRepository
 import java.lang.Exception
 

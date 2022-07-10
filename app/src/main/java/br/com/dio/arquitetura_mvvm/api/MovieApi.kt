@@ -1,6 +1,6 @@
 package br.com.dio.arquitetura_mvvm.api
 
-import br.com.dio.arquitetura_mvvm.model.Movie
+import br.com.dio.arquitetura_mvvm.domain.Movie
 import retrofit2.Call
 import retrofit2.http.GET
 

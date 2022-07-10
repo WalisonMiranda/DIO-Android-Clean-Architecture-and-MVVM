@@ -2,7 +2,7 @@ package br.com.dio.arquitetura_mvvm.repository
 
 import android.util.Log
 import br.com.dio.arquitetura_mvvm.api.MovieRestApiTask
-import br.com.dio.arquitetura_mvvm.model.Movie
+import br.com.dio.arquitetura_mvvm.domain.Movie
 
 class MovieRepository(private val movieRestApiTask: MovieRestApiTask) {
 

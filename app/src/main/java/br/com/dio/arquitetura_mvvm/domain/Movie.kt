@@ -1,4 +1,4 @@
-package br.com.dio.arquitetura_mvvm.model
+package br.com.dio.arquitetura_mvvm.domain
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName

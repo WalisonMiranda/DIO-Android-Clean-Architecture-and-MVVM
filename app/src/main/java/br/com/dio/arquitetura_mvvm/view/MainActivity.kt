@@ -6,7 +6,7 @@ import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import br.com.dio.arquitetura_mvvm.R
-import br.com.dio.arquitetura_mvvm.model.Movie
+import br.com.dio.arquitetura_mvvm.domain.Movie
 import br.com.dio.arquitetura_mvvm.viewmodel.MovieListViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 

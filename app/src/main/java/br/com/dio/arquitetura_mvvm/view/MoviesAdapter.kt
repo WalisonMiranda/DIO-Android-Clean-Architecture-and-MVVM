@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import br.com.dio.arquitetura_mvvm.R
-import br.com.dio.arquitetura_mvvm.model.Movie
+import br.com.dio.arquitetura_mvvm.domain.Movie
 import kotlinx.android.synthetic.main.movie_item_layout.view.*
 
 class MoviesAdapter(private val moviesList: List<Movie>): RecyclerView.Adapter<MoviesViewHolder>() {
