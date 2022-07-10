@@ -2,6 +2,7 @@ package br.com.dio.arquitetura_mvvm.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import br.com.dio.arquitetura_mvvm.R
@@ -22,11 +23,15 @@ class MainActivity : AppCompatActivity() {
         movieListViewModel.init()
 
         initObserver()
+        loadingVisibility(true)
     }
 
     private fun initObserver() {
         movieListViewModel.moviesList.observe(this, Observer { list ->
-            populateList(list)
+            if (list.isNotEmpty()) {
+                populateList(list)
+                loadingVisibility(false)
+            }
         })
     }
 
@@ -37,5 +42,9 @@ class MainActivity : AppCompatActivity() {
             adapter = MoviesAdapter(list)
 
         }
+    }
+
+    private fun loadingVisibility(isLoading: Boolean) {
+        progressBar.visibility = if (isLoading) View.VISIBLE else View.GONE
     }
 }
