@@ -1,4 +1,4 @@
-package br.com.dio.arquitetura_mvvm
+package br.com.dio.movie_flix
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

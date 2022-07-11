@@ -1,4 +1,4 @@
-package br.com.dio.arquitetura_mvvm.data
+package br.com.dio.movie_flix.data
 
 class MovieRepository(private val movieDataSource: MovieDataSource) {
 

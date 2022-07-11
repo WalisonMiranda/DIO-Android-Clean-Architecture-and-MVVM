@@ -8,7 +8,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "br.com.dio.arquitetura_mvvm"
+        applicationId "br.com.dio.movie-flix"
         minSdkVersion 21
         targetSdkVersion 32
         versionCode 1

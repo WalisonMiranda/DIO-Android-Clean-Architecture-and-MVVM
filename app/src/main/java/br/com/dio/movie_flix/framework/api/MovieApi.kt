@@ -1,6 +1,6 @@
-package br.com.dio.arquitetura_mvvm.framework.api
+package br.com.dio.movie_flix.framework.api
 
-import br.com.dio.arquitetura_mvvm.domain.Movie
+import br.com.dio.movie_flix.domain.Movie
 import retrofit2.Call
 import retrofit2.http.GET
 

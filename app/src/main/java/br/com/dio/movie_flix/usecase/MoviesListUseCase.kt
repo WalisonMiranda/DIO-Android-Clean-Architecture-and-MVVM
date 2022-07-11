@@ -1,6 +1,6 @@
-package br.com.dio.arquitetura_mvvm.usecase
+package br.com.dio.movie_flix.usecase
 
-import br.com.dio.arquitetura_mvvm.data.MovieRepository
+import br.com.dio.movie_flix.data.MovieRepository
 
 class MoviesListUseCase(private val movieRepository: MovieRepository) {
 

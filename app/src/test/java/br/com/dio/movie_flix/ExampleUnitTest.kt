@@ -1,4 +1,4 @@
-package br.com.dio.arquitetura_mvvm
+package br.com.dio.movie_flix
 
 import org.junit.Test
 

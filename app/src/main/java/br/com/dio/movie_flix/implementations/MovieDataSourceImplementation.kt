@@ -1,9 +1,9 @@
-package br.com.dio.arquitetura_mvvm.implementations
+package br.com.dio.movie_flix.implementations
 
 import android.util.Log
-import br.com.dio.arquitetura_mvvm.framework.api.MovieRestApiTask
-import br.com.dio.arquitetura_mvvm.data.MovieDataSource
-import br.com.dio.arquitetura_mvvm.domain.Movie
+import br.com.dio.movie_flix.framework.api.MovieRestApiTask
+import br.com.dio.movie_flix.data.MovieDataSource
+import br.com.dio.movie_flix.domain.Movie
 
 class MovieDataSourceImplementation(private val movieRestApiTask: MovieRestApiTask) :
     MovieDataSource {
