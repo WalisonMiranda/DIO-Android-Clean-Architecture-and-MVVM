@@ -1,10 +1,12 @@
-package br.com.dio.arquitetura_mvvm.repository
+package br.com.dio.arquitetura_mvvm.implementations
 
 import android.util.Log
-import br.com.dio.arquitetura_mvvm.api.MovieRestApiTask
+import br.com.dio.arquitetura_mvvm.framework.api.MovieRestApiTask
+import br.com.dio.arquitetura_mvvm.data.MovieDataSource
 import br.com.dio.arquitetura_mvvm.domain.Movie
 
-class MovieRepository(private val movieRestApiTask: MovieRestApiTask) {
+class MovieDataSourceImplementation(private val movieRestApiTask: MovieRestApiTask) :
+    MovieDataSource {
 
     companion object {
         const val TAG = "MovieRepository"
@@ -12,11 +14,10 @@ class MovieRepository(private val movieRestApiTask: MovieRestApiTask) {
 
     private val movieList = arrayListOf<Movie>()
 
-    fun getAllMovies(): List<Movie> {
-
+    override fun getAllMovies(): List<Movie> {
         val request = movieRestApiTask.retrofitApi().getAllMovies().execute()
 
-        if (request.isSuccessful)  {
+        if (request.isSuccessful) {
             request.body()?.let {
                 movieList.addAll(it)
             }
@@ -28,4 +29,6 @@ class MovieRepository(private val movieRestApiTask: MovieRestApiTask) {
 
         return movieList
     }
+
+
 }

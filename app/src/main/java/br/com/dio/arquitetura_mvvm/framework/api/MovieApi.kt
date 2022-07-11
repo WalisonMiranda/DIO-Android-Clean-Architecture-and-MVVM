@@ -1,4 +1,4 @@
-package br.com.dio.arquitetura_mvvm.api
+package br.com.dio.arquitetura_mvvm.framework.api
 
 import br.com.dio.arquitetura_mvvm.domain.Movie
 import retrofit2.Call

@@ -1,5 +1,7 @@
-package br.com.dio.arquitetura_mvvm.view
+package br.com.dio.arquitetura_mvvm.presenter
 
+import android.content.Intent
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -17,11 +19,15 @@ class MoviesAdapter(private val moviesList: List<Movie>): RecyclerView.Adapter<M
 
     override fun onBindViewHolder(holder: MoviesViewHolder, position: Int) {
         holder.itemView.apply {
-            movieTitle.text = moviesList[position].title
-            movieImage.load(moviesList[position].image) {
+            movieTitle.text = moviesList[position].titulo
+            movieImage.load(moviesList[position].imagem) {
                 placeholder(R.drawable.ic_image)
                 fallback(R.drawable.ic_image)
             }
+        }
+
+        holder.itemView.setOnClickListener {
+
         }
     }
 

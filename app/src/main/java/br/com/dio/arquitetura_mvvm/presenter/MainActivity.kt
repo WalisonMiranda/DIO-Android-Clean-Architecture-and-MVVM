@@ -1,4 +1,4 @@
-package br.com.dio.arquitetura_mvvm.view
+package br.com.dio.arquitetura_mvvm.presenter
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,7 +7,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import br.com.dio.arquitetura_mvvm.R
 import br.com.dio.arquitetura_mvvm.domain.Movie
-import br.com.dio.arquitetura_mvvm.viewmodel.MovieListViewModel
+import br.com.dio.arquitetura_mvvm.framework.viewmodel.MovieListViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
