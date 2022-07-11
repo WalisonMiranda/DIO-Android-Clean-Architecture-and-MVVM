@@ -1,6 +1,6 @@
-package br.com.dio.movie_flix.usecase
+package br.com.dio.movieflix.usecase
 
-import br.com.dio.movie_flix.data.MovieRepository
+import br.com.dio.movieflix.data.MovieRepository
 
 class MoviesListUseCase(private val movieRepository: MovieRepository) {
 

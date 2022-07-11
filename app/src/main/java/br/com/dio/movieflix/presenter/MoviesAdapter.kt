@@ -1,10 +1,10 @@
-package br.com.dio.movie_flix.presenter
+package br.com.dio.movieflix.presenter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import br.com.dio.movie_flix.R
-import br.com.dio.movie_flix.domain.Movie
+import br.com.dio.movieflix.R
+import br.com.dio.movieflix.domain.Movie
 import coil.load
 import kotlinx.android.synthetic.main.movie_item_layout.view.*
 

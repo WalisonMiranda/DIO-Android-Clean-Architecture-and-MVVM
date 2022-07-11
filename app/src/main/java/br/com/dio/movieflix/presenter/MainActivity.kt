@@ -1,13 +1,13 @@
-package br.com.dio.movie_flix.presenter
+package br.com.dio.movieflix.presenter
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import br.com.dio.movie_flix.R
-import br.com.dio.movie_flix.domain.Movie
-import br.com.dio.movie_flix.framework.viewmodel.MovieListViewModel
+import br.com.dio.movieflix.R
+import br.com.dio.movieflix.domain.Movie
+import br.com.dio.movieflix.framework.viewmodel.MovieListViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

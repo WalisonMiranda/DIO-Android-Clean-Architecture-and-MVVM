@@ -1,4 +1,4 @@
-package br.com.dio.movie_flix
+package br.com.dio.movieflix
 
 import org.junit.Test
 

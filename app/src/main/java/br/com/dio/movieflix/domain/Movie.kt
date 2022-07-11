@@ -1,4 +1,4 @@
-package br.com.dio.movie_flix.domain
+package br.com.dio.movieflix.domain
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName

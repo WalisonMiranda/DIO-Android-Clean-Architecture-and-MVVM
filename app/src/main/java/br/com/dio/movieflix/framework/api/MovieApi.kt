@@ -1,6 +1,6 @@
-package br.com.dio.movie_flix.framework.api
+package br.com.dio.movieflix.framework.api
 
-import br.com.dio.movie_flix.domain.Movie
+import br.com.dio.movieflix.domain.Movie
 import retrofit2.Call
 import retrofit2.http.GET
 

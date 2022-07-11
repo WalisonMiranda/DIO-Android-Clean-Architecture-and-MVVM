@@ -1,4 +1,4 @@
-package br.com.dio.movie_flix.framework.api
+package br.com.dio.movieflix.framework.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

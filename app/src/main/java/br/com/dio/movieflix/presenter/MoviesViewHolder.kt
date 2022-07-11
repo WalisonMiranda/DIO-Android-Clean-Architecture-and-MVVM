@@ -1,4 +1,4 @@
-package br.com.dio.movie_flix.presenter
+package br.com.dio.movieflix.presenter
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

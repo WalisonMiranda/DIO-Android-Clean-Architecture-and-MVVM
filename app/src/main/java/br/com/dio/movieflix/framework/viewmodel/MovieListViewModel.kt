@@ -1,14 +1,14 @@
-package br.com.dio.movie_flix.framework.viewmodel
+package br.com.dio.movieflix.framework.viewmodel
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import br.com.dio.movie_flix.data.MovieRepository
-import br.com.dio.movie_flix.domain.Movie
-import br.com.dio.movie_flix.framework.api.MovieRestApiTask
-import br.com.dio.movie_flix.implementations.MovieDataSourceImplementation
-import br.com.dio.movie_flix.usecase.MoviesListUseCase
+import br.com.dio.movieflix.data.MovieRepository
+import br.com.dio.movieflix.domain.Movie
+import br.com.dio.movieflix.framework.api.MovieRestApiTask
+import br.com.dio.movieflix.implementations.MovieDataSourceImplementation
+import br.com.dio.movieflix.usecase.MoviesListUseCase
 
 class MovieListViewModel : ViewModel() {
 
