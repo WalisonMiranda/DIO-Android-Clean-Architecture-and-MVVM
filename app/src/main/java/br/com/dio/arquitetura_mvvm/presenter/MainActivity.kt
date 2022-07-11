@@ -1,8 +1,8 @@
 package br.com.dio.arquitetura_mvvm.presenter
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import br.com.dio.arquitetura_mvvm.R
